@@ -1,6 +1,8 @@
 on:
   push:
-    branches: [ "main" ]
+    # run only against tags
+    tags:
+      - 'v*'
 
 permissions:
     contents: write
