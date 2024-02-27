@@ -5,7 +5,7 @@ import (
 	"runtime"
 )
 
-var version string = "0.0.1"
+var version string = "0.0.2"
 
 func main() {
 	fmt.Println("hello platform:", runtime.GOOS, runtime.GOARCH)
